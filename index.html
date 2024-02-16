@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Smart Login System</title>
+</head>
+<body id="LOGIN">
+
+
+  <section class="vh-100 d-flex justify-content-center align-items-center" id="signINPage" >
+<div class="formdiv   text-center p-4 container" >
+  <h1>Smart Login System</h1>
+ 
+    <input type="text" placeholder="Enter your mail" class="w-100 px-2  " id="email"  >
+    <input type="password" placeholder="Enter your password" class="w-100 px-2 " id="password">
+    
+    <button class=" w-100 " id="SignInBtn" type="submit" >Login</button>
+    <span class="text-danger d-none" id="loginfalid">incorrect email or password</span>
+    <p >Don’t have an account? <a href="#" id="signup" >Sign Up</a></p>
+  
+  
+
+</div>
+
+  </section>
+
+  <section class="vh-100 d-flex justify-content-center align-items-center  d-none" id="signUPPage" >
+    <div class="formdiv   text-center p-4 container" >
+      <h1>Smart Login System</h1>
+     
+        <input type="text" placeholder="Enter your name" class="w-100 px-2 " id="SignName">
+        <input type="email" placeholder="Enter your mail" class="w-100 px-2 " id="Signemail"  >
+        <input type="password" placeholder="Enter your password" class="w-100 px-2 " id="Signpassword">
+        
+        <span class="text-success d-none " id="Success"> Success</span>
+        <span class="text-danger d-none " id="falid"> Email not valid </span>
+        <span class="text-warning d-none " id="exist">this mail aleady exist</span>
+        
+        <button class=" w-100 " id="SignUpBtn" type="submit" >Login</button>
+        <p >Don have an account? <a href="index.html">Sign IN</a></p>
+      
+    </div>
+    
+      </section>
+
+      <h1 class="username d-none"></h1>
+
+
+  
+<script src="bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+<script src="weclom.js"></script>
+
+
+</body>
+</html>
